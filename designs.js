@@ -2,8 +2,8 @@
 // Select size input
 var gridHeight, gridWidth, submitButton, selectedColor, gridCanvas;
 
-gridHeight = $('#inputHeight');
-gridWidth = $('#inputWidth'); 
+gridHeight = $('#inputHeight').val();
+gridWidth = $('#inputWidth').val();
 submitButton = $('.submit');
 selectedColor = $('#colorPicker');
 gridCanvas = $('pixelCanvas');
