@@ -2,11 +2,11 @@
 // Select size input
 var gridHeight, gridWidth, submitButton, selectedColor, gridCanvas;
 
-gridHeight = $(#inputHeight);
-gridWidth = $(#inputWeight); //should update to Width
-submitButton = $(.submit);
-selectedColor = $(#colorPicker);
-gridCanvas = $(pixelCanvas);
+gridHeight = $('#inputHeight');
+gridWidth = $('#inputWeight'); //should update to Width
+submitButton = $('.submit');
+selectedColor = $('#colorPicker');
+gridCanvas = $('pixelCanvas');
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
