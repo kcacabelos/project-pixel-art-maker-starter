@@ -3,7 +3,7 @@
 var gridHeight, gridWidth, submitButton, selectedColor, gridCanvas;
 
 gridHeight = $('#inputHeight');
-gridWidth = $('#inputWeight'); //should update to Width
+gridWidth = $('#inputWidth'); 
 submitButton = $('.submit');
 selectedColor = $('#colorPicker');
 gridCanvas = $('pixelCanvas');
