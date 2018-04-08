@@ -27,5 +27,9 @@ function makeGrid() {
         canvas.children().last().append('<td></td>');
     }
   }
-  //color handler
 }
+$('#pixelCanvas').on('click', 'td', function(event){
+  color = $('#colorPicker').val();
+  $(this).css('background-color', color);
+  event.preventDefault();
+});
