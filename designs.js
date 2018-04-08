@@ -1,15 +1,15 @@
-// Select color input
-// Select size input
-var gridHeight, gridWidth, submitButton, selectedColor, gridCanvas;
+var color;// Select color input
 
-gridHeight = $('#inputHeight').val();
-gridWidth = $('#inputWidth').val();
-submitButton = $('.submit');
-selectedColor = $('#colorPicker');
-gridCanvas = $('pixelCanvas');
+color = $('#colorPicker').val();// Select size input
+
+var height, width;
+
+height = $('#inputHeight').val();
+width = $('#inputWidth').val();
+
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid() {
+function makeGrid(height,width) {
 
 // Your code goes here!
 
