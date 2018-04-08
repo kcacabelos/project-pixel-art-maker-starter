@@ -9,8 +9,24 @@ width = $('#inputWidth').val();
 
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid(height,width) {
+function makeGrid(height,width) {// Your code goes here!
+  for(var i = 0; i < height; i++){
 
-// Your code goes here!
+    var table, rows;
 
+    table = $('#pixelCanvas');
+    rows = $('<tr></tr>');
+
+    table.append(rows);
+
+    for(var j = 0; j < width; i++){
+
+      var newRows, columns;
+
+      newRows = $('tr');
+      columns = $('<td></td>');
+
+      table.append(columns);
+    }
+  }
 }
